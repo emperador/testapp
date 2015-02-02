@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Edit Text"
+        android:key="name"
+        android:summary="Pone tu nombre">
+    </EditTextPreference>
+
+    <!-- el android:key es el nombre de la variable como se le va a guardar -->
+
+    <CheckBoxPreference
+        android:title="Music"
+        android:defaultValue="true"
+        android:key="checkbox"
+        android:summary="for the whip screen">
+    </CheckBoxPreference>
+<!-- en entries le pones el nombre al que le estas referenciando -->
+    <ListPreference
+        android:title="list"
+        android:key="list"
+        android:summary="Tenes que elegir de esta lista"
+        android:entries="@array/list"
+        android:entryValues="@array/lValues">
+    </ListPreference>
+
+</PreferenceScreen>

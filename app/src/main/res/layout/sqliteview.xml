@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- al ponerle wrap_content a la altura linearLayout de afuera aparecen todos
+    los elementos que citamos dentro y fuera del tableLayout-->
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tableLayout1">
+        <TableRow>
+            <TextView android:text="Names" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1"/>
+            <TextView android:text="Hotness" android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_weight="1"/>
+        </TableRow>
+
+    </TableLayout>
+    <TextView android:text="obtener info de BD" android:id="@+id/tvSQLinfo"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+
+</LinearLayout>

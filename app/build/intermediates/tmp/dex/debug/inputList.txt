@@ -1,0 +1,5 @@
+/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/classes/debug
+/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2481e4c161a0e9a855373c375b6887af169f97d4.jar
+/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-eda3cd761bce348cbad2685a8f8639ec090b584b.jar
+/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/pre-dexed/debug/classes-d258090d0e0136ae04e241a46e0d6543a237f6d0.jar
+/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/pre-dexed/debug/classes-3398c008282225c5353ee5f4b85c48d3e6ce0a1c.jar

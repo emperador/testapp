@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/pre-dexed/debug/classes-3398c008282225c5353ee5f4b85c48d3e6ce0a1c.jar" />
+    </item>
+    <item
+        jar="/home/marco/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-2481e4c161a0e9a855373c375b6887af169f97d4.jar" />
+    </item>
+    <item
+        jar="/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/pre-dexed/debug/classes-d258090d0e0136ae04e241a46e0d6543a237f6d0.jar" />
+    </item>
+    <item
+        jar="/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/marco/Documents/Programacion/androidworkspace/PracticeApp/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-eda3cd761bce348cbad2685a8f8639ec090b584b.jar" />
+    </item>
+
+</items>

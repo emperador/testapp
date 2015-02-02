@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ml.marcoaponte.practiceapp" >
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/casa2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Whip"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".startingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="ml.marcoaponte.practiceapp.STARTINGPOINT" /><!-- siempre en mayuscula el nombre de la clase -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="ml.marcoaponte.practiceapp.MENU" /><!-- siempre en mayuscula el nombre de la clase -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TextPlay"
+            android:label="@string/app_name" >
+            <!--intent filter> NO HACE MÁS FALTA EL INTENT filter porque todos son default, para declarar
+            el launcher sí se utiliza. El action name tampoco es necesario porque en el menu ya se
+            define a que Clase se le va a llamar por su path completo. Sólo se necesita el activity name
+                <action android:name="ml.marcoaponte.practiceapp.TextPlay" />< // siempre en mayuscula el nombre de la clase >
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter-->
+        </activity>
+        <!-- comentario:> siempre poner el android:name idéntico al nombre de la clase</comentario-->
+        <activity
+            android:name=".Email"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Camara"
+            android:label="Camara app"
+            android:screenOrientation="portrait">
+            <!--comentario // el screen orientation deja fija la orientación de la pantalla-->
+        </activity>
+        <activity
+            android:name=".Datos"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+            <!--comentario // el screen orientation deja fija la orientación de la pantalla-->
+        </activity>
+        <activity
+            android:name=".OpenedClass"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/app_name" >
+            <intent-filter> <!-- el ANDROID NAME LO QUE TIENE QUE SER IDENTICO A LA CLASE (?)-->
+                <action android:name="ml.marcoaponte.practiceapp.ABOUTUS" /><!-- siempre en mayuscula el nombre de la clase -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Preferences"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="ml.marcoaponte.practiceapp.PREFERS" /><!-- siempre en mayuscula el nombre de la clase -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GFX"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".GFXSurface"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".GFXSurface2"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SoundStuff"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Slider"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Tabs"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SimpleBrowser"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Flipper"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SharedPrefs"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".InternalData"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ExternalData"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SQLite"
+            android:label="Datos app"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+</manifest>
